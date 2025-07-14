@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>CatCor Project: letter-01127</title>
+            <author>Catherine the Great</author>
+            <principal>Andrew Kahn</principal>
+            <editor>Kelsey Rubin-Detlev</editor>
+            <funder>OUP John Fell Fund</funder>
+            <funder>British Academy/Leverhulme Small Research Grants</funder>
+            <respStmt>
+               <resp>encoded by </resp>
+               <name>the CatCor Project team</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>CatCor Project</authority>
+            <idno type="CatCor">letter-01127</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/"> Licensed with a
+                  Creative Commons Attribution 4.0 International (CC BY 4.0) license.</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="enclosure">NB. Inclusion.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="sourceEdition">
+               <bibl type="citation">Pis’ma i zapiski imperatritsy Ekateriny Vtoroi k grafu Nikite
+                  Ivanovichu Paninu (Moskva: Tipografiia universiteta, 1863)</bibl>
+               <biblScope>p. 10.</biblScope>
+            </bibl>
+            <bibl type="sourceEdition">
+               <bibl type="citation">Polovtsov, Alexander, ed., <title>Sbornik imperatorskago
+                     russkago istoricheskago obshchestva</title>, 148 vols (Sankt Peterburg:
+                  Tipografiia imperatorskoi akademii nauk, 1867-1916), X (1872) <ref
+                     target="https://babel.hathitrust.org/cgi/pt?id=coo.31924089408128&amp;view=1up&amp;seq=7&amp;skin=2021"
+                     >&lt;https://babel.hathitrust.org/cgi/pt?id=coo.31924089408128&amp;view=1up&amp;seq=7&amp;skin=2021&gt;</ref>
+                  [accessed 29 September 2021]</bibl>
+               <biblScope>pp. 23-25.</biblScope>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote>Unknown</handNote>
+         </handNotes>
+         <correspDesc ref="https://catcor.seh.ox.ac.uk/id/letter-01127">
+            <correspAction type="sent">
+               <persName ref="https://viaf.org/viaf/49493819" corresp="people.xml#cat01" type="main">
+                  <forename>Catherine</forename>
+                  <genName>II</genName>
+                  <addName type="epithet">the Great</addName>
+                  <roleName>Empress of Russia</roleName>
+               </persName>
+               <placeName ref="https://www.geonames.org/542739" corresp="places.xml#cra01">Krasnaia
+                  Gorka</placeName>
+               <location>
+                  <geo>59.97354 29.33929</geo>
+                  <bibl>
+                     <ref target="https://www.geonames.org/542739/"
+                        >https://www.geonames.org/542739/</ref>
+                  </bibl>
+               </location>
+               <date calendar="#julian" datingMethod="#julian" when-custom="1765-06-08">8 June
+                  1765</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://viaf.org/viaf/51538274" corresp="people.xml#pan01" type="main">
+                  <roleName>Count</roleName>
+                  <forename>Nikita</forename>
+                  <forename type="patronym">Ivanovich</forename>
+                  <surname>Panin</surname>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         <calendarDesc>
+            <calendar xml:id="julian" target="https://lccn.loc.gov/sh85018840">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <textClass>
+            <keywords n="foreignPolicy">
+               <term target="kw.xml#navy"/>
+            </keywords>
+            <keywords n="domesticPolicy">
+               <term target="kw.xml#military"/>
+            </keywords>
+            <keywords n="letterType">
+               <term target="kw.xml#note"/>
+            </keywords>
+
+         </textClass>
+         <langUsage>
+            <language ident="fr">French</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change>
+            <date when="2021-04-05">05/04/2021</date>
+            <persName>Gabriel O’Regan</persName>
+            <label>Initial markup</label>
+         </change>
+         <change>
+            <date>2021-04-09T08:26:33Z</date>
+            <name>Microsoft Office User</name>
+         </change>
+         <change>
+            <date when="2021-04-09">09-04-2021</date>
+            <persName>HD|DH</persName>
+            <label>Conversion to xml and checking</label>
+         </change>
+         <change>
+            <date when="2025-05-30">30-05-2025</date>
+            <persName>Kelsey Rubin-Detlev</persName>
+            <label>Correction of tagging, resolution of initial markup queries.</label>
+         </change>
+         <change type="ChatGPT"><date>2025-06-07</date><persName>ChatGPT</persName><label>Added
+               translation into British English generated by ChatGPT</label></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text type="letter" xml:lang="fr" xml:id="letter-01127">
+            <body>
+               <opener>
+                  <dateline>De dessus le yacht, avec un vent très contraire et honnêtement fort.
+                     Entre <placeName ref="places.xml#cra01"> Crasna Gorca</placeName> et <placeName
+                        ref="places.xml#kro01"> Cronstadt</placeName>, le <date
+                        when-custom="1765-06-08">8 Juin, à 7 heures du matin, 1765</date>.
+                  </dateline>
+               </opener>
+               <p>Notre course a été si heureuse, que Nous sommes arrivé le lendemain de Notre
+                  départ de <placeName ref="places.xml#pet01"> Pétersbourg</placeName> à huit heures
+                  du matin à la vue de la flotte. Voilà ce, que vous direz à <rs
+                     ref="people.xml#pau01"> Mon Grand Amiral</rs>, en l'assurant de Ma tendresse.
+                  Mais voici ce, que vous garderez pour vous, et dont vous n'aurez pas moins de
+                  déplaisir que Moi; nous avons des vaisseaux et du monde dessus à Foison, mais Nous
+                  n’avons ni flotte, ni marinier; au moment, que J’ai arboré l’étendart et que les
+                  vaisseaux passoient et rendoient le salut, deux ont pensé périr par la faute de
+                  leurs Capitaines, qui donnèrent l'un avec sa poupe au travers des cordages de
+                  l’autre à cent toises peut-être de Mon yacht; il furent une bonne heure à
+                  débarasser leur bord et enfin y réussirent au grand détriment de leurs mâts et
+                  cordages; puis l’<rs ref="people.xml#mor08">Amiral</rs> voulut qu'ils tinssent
+                  ligne, mais aucun vaisseaux n’en put venir à bout, quoique le temps fut fort beau;
+                  enfin à cinq heures de l’après dînée on s'approcha de la côte pour le bombardement
+                  de la soit disante ville; on plaça un bateau à bombe devant, et lorsqu'on voulut
+                  en mettre un second, on ne parvint qu’avec peine à le trouver, personne ne tenant
+                  ligne; on tira à boulet et à bombe sans qu'elles portassent jusqu’au but, jusqu’à
+                  neuf heures du soir, qu’enfin ennuyée et ayant le timpan de l'oreille offensé de
+                  ce tintamarre aussi inutile, que redicule. Je fis prier l’<rs
+                     ref="people.xml#mor08">Amiral</rs> de passer à mon bord, où Je pris congé de
+                  lui, le priant de ne plus s’opiniatrer à bruler ce, qui restoit de cette ville,
+                  car on avoit eu la précaution, avant que d’y tirer, d’attacher des traînées de
+                  poudre à différents endroits, qui ne manquèrent pas de faire leur effet mieux, que
+                  les boulets et les bombes. Cette expédition à bout de chandelle est aussi tout ce,
+                  que nous avons vu; l’<rs ref="people.xml#mor08">Amiral</rs> étoit lui même
+                  extrêmement peinant de toutes ces misères et avoue. que tout cet étalage est au
+                  plus mal possible, il faut avouer, qu’ils ont l’air de la flotte pour la pêche des
+                  harengs, qui part d’<placeName ref="places.xml#hol02">Hollande</placeName> tous
+                  les ans, et non en vérité d’une flotte de guerre, pas un vaisseau ne tient son
+                  rang </p>
+               <closer>
+                  <signed rend="inline">Adieu, en voilà assez pour aujourd’hui. Je vous renvoie les
+                     dépêches, que vous aviez envoyées avec Moi.</signed>
+               </closer>
+            </body>
+         </text>
+         <text type="translation" xml:lang="en" xml:id="en">
+            <body>
+               <opener>
+                  <dateline>From aboard the yacht, with a very contrary and decidedly strong wind.
+                     Between <placeName ref="places.xml#cra01">Krasnaia Gorka</placeName> and
+                        <placeName ref="places.xml#kro01">Kronstadt</placeName>, on <date
+                        when-custom="1765-06-08">8 June, at 7 o’clock in the morning, 1765</date>.
+                  </dateline>
+               </opener>
+               <p>Our journey was so fortunate that we arrived the day after our departure from
+                     <placeName ref="places.xml#pet01">St Petersburg</placeName> at eight o’clock in
+                  the morning in sight of the fleet. That is what you are to tell <rs
+                     ref="people.xml#pau01">My Grand Admiral</rs>, assuring him of My affection. But
+                  here is what you are to keep to yourself, and which will displease you no less
+                  than it did Me: we have ships and people aboard in abundance, but we have neither
+                  a fleet nor seamen; at the very moment I hoisted the standard and the ships passed
+                  and returned the salute, two nearly perished due to the incompetence of their
+                  Captains—one of whom rammed his stern into the rigging of the other, perhaps a
+                  hundred fathoms from My yacht; they took a good hour to clear themselves and
+                  finally managed to do so, to the great detriment of their masts and rigging; then
+                  the <rs ref="people.xml#mor08">Admiral</rs> wanted them to form a line, but not a
+                  single ship could manage it, although the weather was very fine; finally, at five
+                  o’clock in the afternoon, they approached the coast to bombard the so-called town;
+                  they placed a bomb boat in front, and when they tried to put a second in place,
+                  they could barely manage to find it, no one keeping formation; they fired shot and
+                  shell without reaching the target, until nine o’clock in the evening, when,
+                  finally bored and with My eardrum irritated by this din as useless as it was
+                  ridiculous, I requested the <rs ref="people.xml#mor08">Admiral</rs> to come aboard
+                  My vessel, where I took leave of him, asking him not to persist in burning what
+                  remained of that town, for they had had the foresight, before firing, to attach
+                  powder trails in various places, which did their job better than the cannonballs
+                  and shells. This candle-end expedition is all we saw; the <rs
+                     ref="people.xml#mor08">Admiral</rs> himself was most troubled by all these
+                  miseries and admits that the whole display was as bad as could be. One must admit,
+                  they looked more like the herring fleet that sets out from <placeName
+                     ref="places.xml#hol02">Holland</placeName> each year, and not, truly, like a
+                  war fleet—not a single ship kept its position. </p>
+               <closer>
+                  <signed rend="inline">Farewell, that is enough for today. I return the dispatches
+                     you sent with Me.</signed>
+               </closer>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

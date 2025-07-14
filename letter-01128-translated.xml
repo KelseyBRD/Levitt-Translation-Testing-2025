@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CatCor Project: letter-01128</title>
+                <author>Catherine the Great</author>
+                <principal>Andrew Kahn</principal>
+                <editor>Kelsey Rubin-Detlev</editor>
+                <funder>OUP John Fell Fund</funder>
+                <funder>British Academy/Leverhulme Small Research Grants</funder>
+                <respStmt>
+                    <resp>encoded by </resp>
+                    <name>the CatCor Project team</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>CatCor Project</authority>
+                <idno type="CatCor">letter-01128</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> Licensed with a
+                        Creative Commons Attribution 4.0 International (CC BY 4.0)
+                        license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="sourceEdition">
+                    <bibl type="citation">Pis’ma i zapiski imperatritsy Ekateriny Vtoroi k grafu
+                        Nikite Ivanovichu Paninu (Moskva: Tipografiia universiteta, 1863)</bibl>
+                    <biblScope>p. 11.</biblScope>
+                </bibl>
+                <bibl type="sourceEdition">
+                    <bibl type="citation">Polovtsov, Alexander, ed., <title>Sbornik imperatorskago
+                            russkago istoricheskago obshchestva</title>, 148 vols (Sankt Peterburg:
+                        Tipografiia imperatorskoi akademii nauk, 1867-1916), X (1872) <ref
+                            target="https://babel.hathitrust.org/cgi/pt?id=coo.31924089408128&amp;view=1up&amp;seq=7&amp;skin=2021"
+                            >&lt;https://babel.hathitrust.org/cgi/pt?id=coo.31924089408128&amp;view=1up&amp;seq=7&amp;skin=2021&gt;</ref>
+                        [accessed 29 September 2021]</bibl>
+                    <biblScope>p. 25.</biblScope>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote>Unknown</handNote>
+            </handNotes>
+            <correspDesc ref="https://catcor.seh.ox.ac.uk/id/letter-01128">
+                <correspAction type="sent">
+                    <persName ref="https://viaf.org/viaf/49493819" corresp="people.xml#cat01"
+                        type="main">
+                        <forename>Catherine</forename>
+                        <genName>II</genName>
+                        <addName type="epithet">the Great</addName>
+                        <roleName>Empress of Russia</roleName>
+                    </persName>
+                    <placeName ref="https://www.geonames.org/2857131" corresp="places.xml#ora01"
+                        >Oranienbaum</placeName>
+                    <location>
+                        <geo>51.798598 12.405835</geo>
+                        <bibl>
+                            <ref target="https://www.geonames.org/2857131/"
+                                >https://www.geonames.org/2857131/</ref>
+                        </bibl>
+                    </location>
+                    <date calendar="#julian" datingMethod="#julian" when-custom="1765-06-09">9 June
+                        1765</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://viaf.org/viaf/51538274" corresp="people.xml#pan01"
+                        type="main">
+                        <roleName>Count</roleName>
+                        <forename>Nikita</forename>
+                        <forename type="patronym">Ivanovich</forename>
+                        <surname>Panin</surname>
+                    </persName>
+                </correspAction>
+            </correspDesc>
+            <calendarDesc>
+                <calendar xml:id="julian" target="https://lccn.loc.gov/sh85018840">
+                    <p>Julian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <textClass>
+                <keywords n="letterType">
+                    <term target="kw.xml#note"/>
+                </keywords>
+                <keywords n="personal">
+                    <term target="kw.xml#Paul"/>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ru">Russian</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date when="2021-03-04"/>
+                <persName>Olga Grinchenko</persName>
+                <label>Initial markup</label>
+            </change>
+            <change>
+                <date when="2021-03-08"/>
+                <persName>HD|DH</persName>
+                <label>QA</label>
+            </change>
+            <change type="ChatGPT"><date when="2025-06-07"
+                    >2025-06-07</date><persName>ChatGPT</persName><label>Added translation into
+                    British English generated by ChatGPT</label></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text type="letter" xml:lang="ru" xml:id="letter-01128">
+                <body>
+                    <opener>
+                        <salute rend="inline">
+                            <persName ref="people.xml#pan01">Никита Иванович.</persName>
+                        </salute>
+                    </opener>
+                    <p> Надеюсь, что Вы моим вчерашним посланным сведали, что я вчерась в первом
+                        часу по полудни сюда приехала благополучно, имев туда и сюда ветер по
+                        желанию. Ваше письмо со всеми депешами получила вчерась же, в девятом часу
+                        вечеру, из котораго увидела, что <persName ref="people.xml#pau01">сын
+                            мой</persName> здоров. Я в субботу буду в город, а здесь мы вчерась
+                        столь много ходили, что сегодни я встала в одиннадцатом часу, а многия после
+                        меня без пристрастия говорят, что сад и дом мои хорош, а мне кажется, будто
+                        лутче здесь нигде нету.</p>
+                    <closer rend="inline">Прощайте, желаю Вам здравствовать.<lb/>
+                        <signed>
+                            <persName ref="people.xml#cat01">Екатерина.</persName>
+                        </signed>
+                        <lb/>
+                        <dateline>
+                            <date when-custom="1765-06-09">9 числа Июня, 1765.</date>
+                            <lb/> Из <placeName ref="places.xml#ora01">Ораниенбаума.</placeName>
+                        </dateline>
+                    </closer>
+                </body>
+            </text>
+            <text type="translation" xml:lang="en" xml:id="en">
+                <body><opener><salute rend="inline"><persName ref="people.xml#pan01">Nikita
+                                Ivanovich.</persName></salute></opener><p>I hope that you learnt
+                        from my message sent yesterday that I arrived here safely yesterday at
+                        around one o'clock in the afternoon, having had favourable wind both there
+                        and back. I received your letter along with all the dispatches yesterday as
+                        well, at around nine in the evening, from which I learnt that <persName
+                            ref="people.xml#pau01">my son</persName> is well. On Saturday I
+                    shall be in town, but yesterday we walked so much here that today I did not rise
+                    until eleven, and many after me. Unbiased people say that my garden and house
+                    are fine, and it seems to me as if there is nowhere better than here.</p><closer
+                        rend="inline">Farewell, I wish you good health.<lb/><signed><persName
+                                ref="people.xml#cat01"
+                                >Ekaterina.</persName></signed><lb/><dateline><date
+                                when-custom="1765-06-09">9 June 1765</date><lb/><placeName
+                                ref="places.xml#ora01">From
+                        Oranienbaum.</placeName></dateline></closer></body>
+            </text>
+        </group>
+    </text>
+</TEI>

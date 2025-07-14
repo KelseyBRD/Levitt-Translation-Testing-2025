@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CatCor Project: letter-01120</title>
+                <author>Catherine the Great</author>
+                <principal>Andrew Kahn</principal>
+                <editor>Kelsey Rubin-Detlev</editor>
+                <funder>OUP John Fell Fund</funder>
+                <funder>British Academy/Leverhulme Small Research Grants</funder>
+                <respStmt>
+                    <resp>encoded by </resp>
+                    <name>the CatCor Project team</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>CatCor Project</authority>
+                <idno type="CatCor">letter-01120</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> Licensed with a
+                        Creative Commons Attribution 4.0 International (CC BY 4.0)
+                        license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="sourceEdition">
+                    <bibl type="citation">Pis’ma i zapiski imperatritsy Ekateriny Vtoroi k grafu
+                        Nikite Ivanovichu Paninu (Moskva: Tipografiia universiteta, 1863)</bibl>
+                    <biblScope>p. 7.</biblScope>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote>Unknown</handNote>
+            </handNotes>
+            <correspDesc ref="https://catcor.seh.ox.ac.uk/id/letter-01120">
+                <correspAction type="sent">
+                    <persName ref="https://viaf.org/viaf/49493819" corresp="people.xml#cat01"
+                        type="main">
+                        <forename>Catherine</forename>
+                        <genName>II</genName>
+                        <addName type="epithet">the Great</addName>
+                        <roleName>Empress of Russia</roleName>
+                    </persName>
+                    <placeName ref="https://www.geonames.org/456172" corresp="places.xml#rig01"
+                        >Riga</placeName>
+                    <location>
+                        <geo>56.94600412 24.10589218</geo>
+                        <bibl>
+                            <ref target="https://www.geonames.org/456172/"
+                                >https://www.geonames.org/456172/</ref>
+                        </bibl>
+                    </location>
+                    <date calendar="#julian" datingMethod="#julian" when-custom="1764-07-14">14 July
+                        1764</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://viaf.org/viaf/51538274" corresp="people.xml#pan01"
+                        type="main">
+                        <roleName>Count</roleName>
+                        <forename>Nikita</forename>
+                        <forename type="patronym">Ivanovich</forename>
+                        <surname>Panin</surname>
+                    </persName>
+                </correspAction>
+            </correspDesc>
+            <calendarDesc>
+                <calendar xml:id="julian" target="https://lccn.loc.gov/sh85018840">
+                    <p>Julian calendar</p>
+                </calendar>
+            </calendarDesc>
+            <textClass>
+                <keywords n="letterType">
+                    <term target="kw.xml#note"/>
+                </keywords>
+                <keywords n="domesticPolicy">
+                    <term target="kw.xml#military"/>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="ru">Russian</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change>
+                <date when="2021-02-25"/>
+                <persName>Olga Grinchenko</persName>
+                <label>Initial markup</label>
+            </change>
+            <change>
+                <date when="2021-03-06"/>
+                <persName>HD|DH</persName>
+                <label>QA</label>
+            </change>
+            <change><date when="2025-06-07"
+                    >2025-06-07</date><persName>ChatGPT</persName><label>Added British English
+                    translation</label></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text type="letter" xml:lang="ru" xml:id="letter-01120">
+                <body>
+                    <opener>
+                        <salute rend="inline">
+                            <persName ref="people.xml#pan01">Никита Иванович!</persName>
+                        </salute>
+                    </opener>
+                    <p>Я получила сегодня куриера от <placeName ref="places.xml#vyb01"
+                            >Выборгскаго</placeName> Губернатора с репортами, кои при сем к Вам
+                        посылаю. Вы можете по оным приказать Генерал-Порутчику <persName
+                            ref="people.xml#wey01">Веймарну,</persName> чтоб он, отъискав того
+                        ундер-Офицера, которой, будучи при слюзах, доносил своему командиру,
+                        Ассесору <persName ref="people.xml#bek01">Бекоу,</persName> что он видел
+                        прибывшия из <placeName ref="places.xml#pet01">Петербурга</placeName> в
+                            <placeName ref="places.xml#shl01">Слюсенбург</placeName> шлюбки с людьми
+                        в масках, его допросил, подлинно ли он видел, и старался бы всячески
+                        разведывать, не откроется ль чрез это каких сообщников <rs
+                            ref="events.xml#ivanv01">известному бунту.</rs>
+                    </p>
+                    <closer>
+                        <signed>
+                            <persName ref="people.xml#cat01">Екатерина.</persName>
+                        </signed>
+                        <lb/>
+                        <dateline>
+                            <placeName ref="places.xml#rig01">Рига.</placeName>
+                            <lb/>
+                            <date when-custom="1764-07-14">Июля 14 дня,<lb/> 1764.</date>
+                        </dateline>
+                    </closer>
+                </body>
+            </text>
+            <text type="translation" xml:lang="en">
+                <body>
+                    <opener><salute rend="inline"><persName ref="people.xml#pan01">Nikita
+                                Ivanovich!</persName></salute></opener>
+                    <p>Today I received a courier from the <placeName
+                            ref="places.xml#vyb01">Vyborg</placeName> Governor with reports, which I am sending
+                        to you herewith. You may, based on them, order Lieutenant General <persName
+                            ref="people.xml#wey01">Weimarn</persName> to locate
+                        the non-commissioned officer who, being at the sluices, reported to his
+                        commander, Assessor <persName
+                            ref="people.xml#bek01">Bek</persName>, that he saw boats arriving from <placeName ref="places.xml#pet01"
+                            >Petersburg</placeName> in <placeName ref="places.xml#shl01"
+                            >Sluiceburg</placeName> with masked
+                        individuals, question him whether he truly saw this, and make every effort
+                        to find out whether this reveals any accomplices in the <rs ref="events.xml#ivanv01">known
+                        rebellion</rs>.</p>
+                    <closer><signed><persName ref="people.xml#cat01"
+                                >Catherine.</persName></signed><lb/><dateline><placeName
+                                ref="places.xml#rig01">Riga.</placeName><lb/><date
+                                when-custom="1764-07-14">14 July,<lb/></date>
+                        1764.</dateline></closer>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>CatCor Project: letter-01129</title>
+            <author>Catherine the Great</author>
+            <principal>Andrew Kahn</principal>
+            <editor>Kelsey Rubin-Detlev</editor>
+            <funder>OUP John Fell Fund</funder>
+            <funder>British Academy/Leverhulme Small Research Grants</funder>
+            <respStmt>
+               <resp>encoded by </resp>
+               <name>the CatCor Project team</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>CatCor Project</authority>
+            <idno type="CatCor">letter-01129</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/"> Licensed with a
+                  Creative Commons Attribution 4.0 International (CC BY 4.0) license.</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note/>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="sourceEdition">
+               <bibl type="citation">Pis’ma i zapiski imperatritsy Ekateriny Vtoroi k grafu Nikite
+                  Ivanovichu Paninu (Moskva: Tipografiia universiteta, 1863)</bibl>
+               <biblScope>p. 11.</biblScope>
+            </bibl>
+            <bibl type="sourceEdition">
+               <bibl type="citation">Polovtsov, Alexander, ed., <title>Sbornik imperatorskago
+                     russkago istoricheskago obshchestva</title>, 148 vols (Sankt Peterburg:
+                  Tipografiia imperatorskoi akademii nauk, 1867-1916), X (1872) <ref
+                     target="https://babel.hathitrust.org/cgi/pt?id=coo.31924089408128&amp;view=1up&amp;seq=7&amp;skin=2021"
+                     >&lt;https://babel.hathitrust.org/cgi/pt?id=coo.31924089408128&amp;view=1up&amp;seq=7&amp;skin=2021&gt;</ref>
+                  [accessed 29 September 2021]</bibl>
+               <biblScope>pp. 36-37.</biblScope>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote>Unknown</handNote>
+         </handNotes>
+         <correspDesc ref="https://catcor.seh.ox.ac.uk/id/letter-01129">
+            <correspAction type="sent">
+               <persName ref="https://viaf.org/viaf/49493819" corresp="people.xml#cat01" type="main">
+                  <forename>Catherine</forename>
+                  <genName>II</genName>
+                  <addName type="epithet">the Great</addName>
+                  <roleName>Empress of Russia</roleName>
+               </persName>
+               <placeName ref="https://www.geonames.org/537232" corresp="places.xml#lad01">Lake
+                  Ladoga</placeName>
+               <location>
+                  <geo>61 31.5</geo>
+                  <bibl>
+                     <ref target="https://www.geonames.org/537232/"
+                        >https://www.geonames.org/537232/</ref>
+                  </bibl>
+               </location>
+               <date calendar="#julian" datingMethod="#julian" when-custom="1765-08-06">6 August
+                  1765</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://viaf.org/viaf/51538274" corresp="people.xml#pan01" type="main">
+                  <roleName>Count</roleName>
+                  <forename>Nikita</forename>
+                  <forename type="patronym">Ivanovich</forename>
+                  <surname>Panin</surname>
+               </persName>
+            </correspAction>
+         </correspDesc>
+         <calendarDesc>
+            <calendar xml:id="julian" target="https://lccn.loc.gov/sh85018840">
+               <p>Julian calendar</p>
+            </calendar>
+         </calendarDesc>
+         <textClass>
+            <keywords n="foreignPolicy">
+               <term target="kw.xml#navy"/>
+            </keywords>
+            <keywords n="domesticPolicy">
+               <term target="kw.xml#domesticPolicy"/>
+            </keywords>
+            <keywords n="letterType">
+               <term target="kw.xml#note"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="fr">French</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Sessa encoded, but not found; could be the River Syas near the Volchov River.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change>
+            <date when="2021-04-05">05/04/2021</date>
+            <persName>Gabriel O’Regan</persName>
+            <label>Initial markup</label>
+         </change>
+         <change>
+            <date>2021-04-09T08:26:42Z</date>
+            <name>Microsoft Office User</name>
+         </change>
+         <change>
+            <date when="2021-04-09">09-04-2021</date>
+            <persName>HD|DH</persName>
+            <label>Conversion to xml and checking</label>
+         </change>
+         <change>
+            <date when="2021-08-04">04/08/2021</date>
+            <persName>Kelsey Rubin-Detlev</persName>
+            <label>Markup modified, queries partially resolved.</label>
+         </change>
+         <change type="ChatGPT"><date when="2025-06-07"
+               >2025-06-07</date><persName>ChatGPT</persName><label>Added translation into British
+               English generated by ChatGPT</label></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text type="letter" xml:lang="fr" xml:id="letter-01129">
+            <body>
+               <opener>
+                  <dateline> De <placeName ref="places.xml#lad01"> Ladoga</placeName>. Ce <date
+                        when-custom="1765-08-06">6 Août, 1765</date>.<lb/>
+                  </dateline>
+               </opener>
+               <p>Je vois bien, que les radoteries du vieux F. <persName ref="people.xml#mun02">
+                     Munich</persName> m'ont privée jusqu'à cette minute de vos nouvelles. Je
+                  commençois à avoir de l'inquiétude, et je supposois, que votre exprès étoit noyé
+                  au moins. Je suis arrivé hier à 7 heures du soir très heureusement et en grande
+                  gaieté ici. <rs ref="people.xml#pan02"> Votre frère</rs> avec ses dignes
+                  compagnons de chasse s'en donnent d'une telle façon, que s'ils n'ont pas la goute;
+                  on pourra dire, qu'ils n’ont rien négligé pour la prendre; ils ont été enterré
+                  dans les marais pendant huit heures hier, et aujourd’hui ils y sont retournés.
+                  C'est une belle chose, mais bien négligée, que ce canal; le voyage est très
+                  commode et pas l’ombre d’une secousse dans toute la route; j’ai été voir ce matin
+                  le canal, que j’ai fait faire moi depuis la <placeName ref="places.xml#ses01">
+                     Sessa</placeName> jusqu'au <placeName ref="places.xml#vol03">
+                     Wolchow</placeName> et dont la cuvette est déjà achevée de la longueur de 10
+                  verstes, qui est toute son étendue; on nous promet la fin de cet ouvrage dans
+                  trois ans. Faites mes compléments au <rs ref="people.xml#pau01"> Grand Duc</rs>;
+                  je me réjouis de sa santé, mercredi je vous rejoindrai; demain je vais voir les
+                  cataractes du <placeName ref="places.xml#vol03"> Wolchow</placeName>.</p>
+               <closer>
+                  <signed rend="inline">Adieu, portez vous bien, et n'ayez pas de confiance dans les
+                     radoteurs, et soyez aussi gai, que nous.</signed>
+               </closer>
+            </body>
+         </text>
+         <text type="translation" xml:lang="en" xml:id="en">
+            <body>
+               <opener><dateline><placeName ref="places.xml#lad01"
+                        >Ladoga</placeName><date when-custom="1765-08-06">6 August,
+                     1765</date><lb/></dateline></opener>
+               <p>It’s clear that the ramblings of old F. <persName ref="people.xml#mun02">Munich</persName> have kept me from hearing from you until
+                  now. I was starting to worry, imagining your courier had drowned at the very
+                  least. I arrived here yesterday at 7 o'clock in the evening, in very good spirits.
+                  <rs
+                     ref="people.xml#pan02">Your brother</rs> and his worthy hunting companions are indulging themselves in such a manner that,
+                  if they don’t end up with gout, it won’t be for lack of trying; they spent eight
+                  hours yesterday buried in the marshes, and they’ve gone back again today. It’s a
+                  fine thing, but very neglected, this canal; the journey is very smooth, not a
+                  single jolt along the way. I went to see the canal this morning, the one I had
+                  built from the <placeName ref="places.xml#ses01"
+                     >Sessa</placeName> to the <placeName ref="places.xml#vol03">Wolchow</placeName>, and its bed is already finished along its full 10-verst
+                  length. We are promised its completion in three years. Please give my regards to
+                  the <rs
+                     ref="people.xml#pau01">Grand Duke</rs>; I’m glad to hear he’s well. I’ll join you on Wednesday. Tomorrow I’m going
+                  to see the <placeName ref="places.xml#vol03"
+                     >Wolchow</placeName> falls.</p>
+               <closer><signed rend="inline">Farewell, take care of yourself, don’t trust ramblers,
+                     and be as cheerful as we are.</signed></closer>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>
