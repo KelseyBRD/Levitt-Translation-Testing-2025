@@ -66,7 +66,7 @@
 	"id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721153157098",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-07-21T22:31:57.098Z",
-	"dcterms:modified": "2025-07-21T22:31:57.098Z",
+	"dcterms:modified": "2025-07-21T22:41:27.846Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KelseyBRD",
 		"@type": [
@@ -98,7 +98,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "people.xml#pet04",
+		"@id": "people.xml#pau01",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -145,7 +145,7 @@
 	"id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721153157099",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-07-21T22:31:57.099Z",
-	"dcterms:modified": "2025-07-21T22:31:57.099Z",
+	"dcterms:modified": "2025-07-21T22:41:34.884Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KelseyBRD",
 		"@type": [
@@ -177,7 +177,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "people.xml#pet04",
+		"@id": "people.xml#pau01",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -458,10 +458,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721153157100",
+	"id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721153907082",
 	"type": "oa:Annotation",
-	"dcterms:created": "2025-07-21T22:31:57.100Z",
-	"dcterms:modified": "2025-07-21T22:39:07.082Z",
+	"dcterms:created": "2025-07-21T22:39:07.082Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KelseyBRD",
 		"@type": [
@@ -472,7 +471,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721153157100#Target",
+		"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721153907082#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml",
@@ -486,7 +485,7 @@
 			"schema:softwareVersion": "3.9.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721153157100#Selector",
+			"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721153907082#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/group/text[2]/body/p/persName"
 		}
@@ -853,10 +852,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?place_annotation_20250721153157101",
+	"id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?place_annotation_20250721153836215",
 	"type": "oa:Annotation",
-	"dcterms:created": "2025-07-21T22:31:57.101Z",
-	"dcterms:modified": "2025-07-21T22:38:36.215Z",
+	"dcterms:created": "2025-07-21T22:38:36.215Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KelseyBRD",
 		"@type": [
@@ -867,7 +865,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?place_annotation_20250721153157101#Target",
+		"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?place_annotation_20250721153836215#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml",
@@ -881,7 +879,7 @@
 			"schema:softwareVersion": "3.9.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?place_annotation_20250721153157101#Selector",
+			"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?place_annotation_20250721153836215#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/group/text/body/p/placeName"
 		}
@@ -1998,11 +1996,11 @@
     <text><group><text type="letter" xml:lang="ru" xml:id="letter-01107">
         <body>
             <p>Уведомление ваше из <placeName ref="places.xml#yed03">Едрова,</placeName> от <date when-custom="1762-09-07">7 числа,</date> меня несколько обезпокоило, что
-                лихорадошной припадок, как пишете, еще оказался у <persName ref="people.xml#pet04">Его Высочества.</persName> Однако
+                лихорадошной припадок, как пишете, еще оказался у <persName ref="people.xml#pau01">Его Высочества.</persName> Однако
                 ж, я думаю сама, что Ёдровские покои, и людство, которое в переезд мой
                 его обезпокоило, тому причиною. Дай Бог, чтоб сие миновалося. А я о Вашем
                 попечении ни мало не сумневаюся.</p>
-            <p>По видимому, мне уже <persName ref="people.xml#pet04">Его Высочества</persName> не дождаться къ въезду моему в <placeName ref="places.xml#mos01">Москву,</placeName> и
+            <p>По видимому, мне уже <persName ref="people.xml#pau01">Его Высочества</persName> не дождаться къ въезду моему в <placeName ref="places.xml#mos01">Москву,</placeName> и
                 для того Вы не спешите ездою, а, смотря по обстоятельстваме пароксисма,
                 продолжайте путь Ваш. До четверга я, однако ж, дожидать буду, и в
                 пятницу, конечно, въеду въ город, потому что мне ни как дале дожидать не
