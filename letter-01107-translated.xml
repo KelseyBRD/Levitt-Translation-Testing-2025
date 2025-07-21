@@ -1921,6 +1921,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721154420314",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-07-21T22:44:20.314Z",
+	"dcterms:modified": "2025-07-21T22:44:20.314Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KelseyBRD",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelsey Rubin-Detlev"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721154420314#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721154420314#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/group/text/body/postscript/p/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://raw.githubusercontent.com/KelseyBRD/CatCor-Test-2023/refs/heads/main/metadata/lists/CatCor_People.xml#pau01",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721154444695",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-07-21T22:44:44.695Z",
+	"dcterms:modified": "2025-07-21T22:44:44.695Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/KelseyBRD",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Kelsey Rubin-Detlev"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721154444695#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.9.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721154444695#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/group/text[2]/body/postscript/p/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://raw.githubusercontent.com/KelseyBRD/CatCor-Test-2023/refs/heads/main/metadata/lists/CatCor_People.xml#pau01",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.9.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
             <handNotes>
             <handNote>Unknown</handNote>
@@ -2015,7 +2173,7 @@
                <persName ref="people.xml#pan04">Сестра Ваша</persName> сегодня по утру у меня была, и я не нашла нимало в ней
                 перемены. <placeName ref="places.xml#med03">В Медном,</placeName> у старухи <persName ref="people.xml#shi01">Шишковой,</persName> хоромы не в пример лучше дворца,
                 а во <placeName ref="places.xml#tve01">Твери</placeName> Архиерейской дом очень хорош и каменной; и того для советую
-                Вам к ним с Великим Князем заехать.</p>
+                Вам к ним с <persName key="Paul I emperor of Russia" ref="https://raw.githubusercontent.com/KelseyBRD/CatCor-Test-2023/refs/heads/main/metadata/lists/CatCor_People.xml#pau01">Великим Князем</persName> заехать.</p>
                 <closer>
                <placeName ref="places.xml#pet03">Село Петровское.</placeName>
                <lb/>
@@ -2047,7 +2205,7 @@
                 <persName ref="people.xml#pan04">Your sister</persName> was with me this morning, and I found no change in her whatsoever.
                 At <placeName ref="places.xml#med03">Mednoe,</placeName> the chambers of the old woman <persName ref="people.xml#shi01">Shishkova</persName> are far better than the palace,
                 and in <placeName ref="places.xml#tve01">Tver</placeName> the Archbishop’s house is very good and made of stone; for this reason I advise
-                you to stop there with the Grand Duke.
+                you to stop there with the <persName key="Paul I emperor of Russia" ref="https://raw.githubusercontent.com/KelseyBRD/CatCor-Test-2023/refs/heads/main/metadata/lists/CatCor_People.xml#pau01">Grand Duke</persName>.
             </p>
             <closer>
                 <placeName ref="places.xml#pet03">Petrovskoe village.</placeName>
