@@ -539,7 +539,7 @@
 	"id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?person_annotation_20250721153157100",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-07-21T22:31:57.100Z",
-	"dcterms:modified": "2025-07-21T22:31:57.100Z",
+	"dcterms:modified": "2025-07-21T22:42:13.431Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KelseyBRD",
 		"@type": [
@@ -571,7 +571,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "people.xml#pet04",
+		"@id": "people.xml#pau01",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1249,7 +1249,7 @@
 	"id": "https://raw.githubusercontent.com/KelseyBRD/Levitt-Translation-Testing-2025/main/letter-01107-translated.xml?place_annotation_20250721153157101",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-07-21T22:31:57.101Z",
-	"dcterms:modified": "2025-07-21T22:31:57.101Z",
+	"dcterms:modified": "2025-07-21T22:42:02.042Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/KelseyBRD",
 		"@type": [
@@ -1281,7 +1281,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "places.xml#yed01",
+		"@id": "places.xml#yed03",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2028,11 +2028,11 @@
     </text>
 <text type="translation" xml:lang="en">
     <body>
-        <p>Your notification from <placeName ref="places.xml#yed01">Yedrovo,</placeName> dated the <date when-custom="1762-09-07">7th,</date> caused me some concern that
+        <p>Your notification from <placeName ref="places.xml#yed03">Yedrovo,</placeName> dated the <date when-custom="1762-09-07">7th,</date> caused me some concern that
             the feverish attack, as you write, has again afflicted <persName ref="people.xml#pau01">His Highness.</persName> However,
             I think myself that the Yedrovo lodgings, and the people who disturbed him during my journey,
             are the reason. God grant that this passes. As for your care, I have not the slightest doubt.</p>
-        <p>It seems to me that <persName ref="people.xml#pet04">His Highness</persName> will not reach
+        <p>It seems to me that <persName ref="people.xml#pau01">His Highness</persName> will not reach
             <placeName ref="places.xml#mos01">Moscow</placeName> in time for my entry, and
             therefore you need not rush the journey but continue at your pace depending on the paroxysm’s condition.
             I shall wait until Thursday, but on Friday I will certainly enter the city, because it is absolutely impossible
