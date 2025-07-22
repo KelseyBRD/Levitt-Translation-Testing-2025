@@ -1,5 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,14 +33,13 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
             <handNotes>
                 <handNote>Unknown</handNote>
             </handNotes>
             <correspDesc ref="https://catcor.seh.ox.ac.uk/id/letter-01110">
                 <correspAction type="sent">
-                    <persName ref="https://viaf.org/viaf/49493819" corresp="people.xml#cat01"
-                        type="main">
+                    <persName ref="https://viaf.org/viaf/49493819" corresp="people.xml#cat01" type="main">
                         <forename>Catherine</forename>
                         <genName>II</genName>
                         <addName type="epithet">the Great</addName>
@@ -53,8 +54,7 @@
                         1763</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="https://viaf.org/viaf/51538274" corresp="people.xml#pan01"
-                        type="main">
+                    <persName ref="https://viaf.org/viaf/51538274" corresp="people.xml#pan01" type="main">
                         <roleName>Count</roleName>
                         <forename>Nikita</forename>
                         <forename type="patronym">Ivanovich</forename>
@@ -112,9 +112,7 @@
                             <persName ref="people.xml#pan01">Никита Иванович!</persName>
                         </salute>
                     </opener>
-                    <p>Есть ли достоинства Принца Ангальт-Кетенскаго таковы, как <persName
-                            ref="people.xml#sal03">Салтыков</persName> об нем писал, и <persName
-                            ref="people.xml#bet01">Генерал-Порутчик Бетцкой,</persName> персонально
+                    <p>Естьли достоинства Принца Ангальт-Кетенскаго таковы, как <persName ref="people.xml#sal03">Салтыков</persName> об нем писал, и <persName ref="people.xml#bet01">Генерал-Порутчик Бетцкой,</persName> персонально
                         его зная, подтверждает, то можете отписать, что мне противно не будет, когда
                         он ко Двору моему приедит. О благополучном пребывании и добром здоровье
                         любезнаго моего сына я сердечно радуюсь, благословение к нему посылаю,
@@ -134,14 +132,13 @@
             <text type="translation" xml:lang="en">
                 <body><opener><salute rend="inline"><persName ref="people.xml#pan01">Nikita
                                 Ivanovich!</persName></salute></opener><p>If the qualities of Prince
-                        Anhalt-Köthen are as <persName ref="people.xml#sal03"
-                            >Saltykov</persName><persName ref="people.xml#bet01">Lieutenant General
+                        Anhalt-Köthen are as <persName ref="people.xml#sal03">Saltykov</persName><persName ref="people.xml#bet01">Lieutenant General
                             Betskoy,</persName> who knows him personally, confirms them, then you
                         may write that I would not object if he were to come to my Court. I am
                         sincerely glad about the prosperous stay and good health of my dear son, I
                         send him my blessing, and remain well-disposed toward you.</p><closer>
                             <signed><persName ref="people.xml#cat01">Catherine.</persName></signed>
-                            <dateline><placeName  ref="places.xml#tri01">Trinity Lavra.</placeName>
+                            <dateline><placeName ref="places.xml#tri01">Trinity Lavra.</placeName>
                                 <date when-custom="1763-05-19">May 19, 1763. At 11 o’clock in the
                                 afternoon.<lb/><lb/></date></dateline></closer></body>
             </text>
