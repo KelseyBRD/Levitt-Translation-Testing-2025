@@ -2155,11 +2155,11 @@
         <body>
             <p>Уведомление ваше из <placeName ref="places.xml#yed03">Едрова,</placeName> от <date when-custom="1762-09-07">7 числа,</date> меня несколько обезпокоило, что
                 лихорадошной припадок, как пишете, еще оказался у <persName ref="people.xml#pau01">Его Высочества.</persName> Однако
-                ж, я думаю сама, что Ёдровские покои, и людство, которое в переезд мой
+                ж, я думаю сама, что Eдровские покои, и людство, которое в переезд мой
                 его обезпокоило, тому причиною. Дай Бог, чтоб сие миновалося. А я о Вашем
                 попечении ни мало не сумневаюся.</p>
             <p>По видимому, мне уже <persName ref="people.xml#pau01">Его Высочества</persName> не дождаться къ въезду моему в <placeName ref="places.xml#mos01">Москву,</placeName> и
-                для того Вы не спешите ездою, а, смотря по обстоятельстваме пароксисма,
+                для того Вы не спешите ездою, а, смотря по обстоятельствам пароксисма,
                 продолжайте путь Ваш. До четверга я, однако ж, дожидать буду, и в
                 пятницу, конечно, въеду въ город, потому что мне ни как дале дожидать не
                 возможно. Пребываю к Вам всегда благосклонна.</p>
@@ -2186,15 +2186,15 @@
     </text>
 <text type="translation" xml:lang="en">
     <body>
-        <p>Your notification from <placeName ref="places.xml#yed03">Yedrovo,</placeName> dated the <date when-custom="1762-09-07">7th,</date> caused me some concern that
+        <p>Your notification from <placeName ref="places.xml#yed03">Edrovo,</placeName> dated the <date when-custom="1762-09-07">7th,</date> caused me some concern that
             the feverish attack, as you write, has again afflicted <persName ref="people.xml#pau01">His Highness.</persName> However,
-            I think myself that the Yedrovo lodgings, and the people who disturbed him during my journey,
-            are the reason. God grant that this passes. As for your care, I have not the slightest doubt.</p>
+            I think myself that the Edrovo lodgings, and the people who disturbed him during my journey,
+            are the reason. God grant that this passes. As for your care of him, I have not the slightest doubt.</p>
         <p>It seems to me that <persName ref="people.xml#pau01">His Highness</persName> will not reach
             <placeName ref="places.xml#mos01">Moscow</placeName> in time for my entry, and
-            therefore you need not rush the journey but continue at your pace depending on the paroxysm’s condition.
+            therefore you need not rush but continue your pace depending on the state of the attack.
             I shall wait until Thursday, but on Friday I will certainly enter the city, because it is absolutely impossible
-            for me to delay further. I remain always well-disposed towards you.</p>
+            for me to delay further. I remain always well-disposed to you.</p>
         <closer>
             <signed>
                 <persName ref="people.xml#cat01">Catherine.</persName>
@@ -2203,8 +2203,8 @@
         <postscript>
             <p>
                 <persName ref="people.xml#pan04">Your sister</persName> was with me this morning, and I found no change in her whatsoever.
-                At <placeName ref="places.xml#med03">Mednoe,</placeName> the chambers of the old woman <persName ref="people.xml#shi01">Shishkova</persName> are far better than the palace,
-                and in <placeName ref="places.xml#tve01">Tver</placeName> the Archbishop’s house is very good and made of stone; for this reason I advise
+                At <placeName ref="places.xml#med03">Mednoe,</placeName> the rooms of the old woman <persName ref="people.xml#shi01">Shishkova</persName> are far better than the palace,
+                and in <placeName ref="places.xml#tve01">Tver</placeName> the Episcopal House is very good and made of stone; for this reason I advise
                 you to stop there with the <persName key="Paul I emperor of Russia" ref="https://raw.githubusercontent.com/KelseyBRD/CatCor-Test-2023/refs/heads/main/metadata/lists/CatCor_People.xml#pau01">Grand Duke</persName>.
             </p>
             <closer>
