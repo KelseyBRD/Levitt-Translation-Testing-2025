@@ -1,5 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,34 +33,30 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
             <handNotes>
                 <handNote>Unknown</handNote>
             </handNotes>
             <correspDesc ref="https://catcor.seh.ox.ac.uk/id/letter-01120">
                 <correspAction type="sent">
-                    <persName ref="https://viaf.org/viaf/49493819" corresp="people.xml#cat01"
-                        type="main">
+                    <persName ref="https://viaf.org/viaf/49493819" corresp="people.xml#cat01" type="main">
                         <forename>Catherine</forename>
                         <genName>II</genName>
                         <addName type="epithet">the Great</addName>
                         <roleName>Empress of Russia</roleName>
                     </persName>
-                    <placeName ref="https://www.geonames.org/456172" corresp="places.xml#rig01"
-                        >Riga</placeName>
+                    <placeName ref="https://www.geonames.org/456172" corresp="places.xml#rig01">Riga</placeName>
                     <location>
                         <geo>56.94600412 24.10589218</geo>
                         <bibl>
-                            <ref target="https://www.geonames.org/456172/"
-                                >https://www.geonames.org/456172/</ref>
+                            <ref target="https://www.geonames.org/456172/">https://www.geonames.org/456172/</ref>
                         </bibl>
                     </location>
                     <date calendar="#julian" datingMethod="#julian" when-custom="1764-07-14">14 July
                         1764</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="https://viaf.org/viaf/51538274" corresp="people.xml#pan01"
-                        type="main">
+                    <persName ref="https://viaf.org/viaf/51538274" corresp="people.xml#pan01" type="main">
                         <roleName>Count</roleName>
                         <forename>Nikita</forename>
                         <forename type="patronym">Ivanovich</forename>
@@ -99,8 +97,7 @@
                 <persName>HD|DH</persName>
                 <label>QA</label>
             </change>
-            <change><date when="2025-06-07"
-                    >2025-06-07</date><persName>ChatGPT</persName><label>Added British English
+            <change><date when="2025-06-07">2025-06-07</date><persName>ChatGPT</persName><label>Added British English
                     translation</label></change>
         </revisionDesc>
     </teiHeader>
@@ -113,17 +110,14 @@
                             <persName ref="people.xml#pan01">Никита Иванович!</persName>
                         </salute>
                     </opener>
-                    <p>Я получила сегодня куриера от <placeName ref="places.xml#vyb01"
-                            >Выборгскаго</placeName> Губернатора с репортами, кои при сем к Вам
-                        посылаю. Вы можете по оным приказать Генерал-Порутчику <persName
-                            ref="people.xml#wey01">Веймарну,</persName> чтоб он, отъискав того
+                    <p>Я получила сегодня куриера от <placeName ref="places.xml#vyb01">Выборгскаго</placeName> Губернатора с репортами, кои при сем к Вам
+                        посылаю. Вы можете по оным приказать Генерал-Порутчику <persName ref="people.xml#wey01">Веймарну,</persName> чтоб он, отъискав того
                         ундер-Офицера, которой, будучи при слюзах, доносил своему командиру,
                         Ассесору <persName ref="people.xml#bek01">Бекоу,</persName> что он видел
                         прибывшия из <placeName ref="places.xml#pet01">Петербурга</placeName> в
                             <placeName ref="places.xml#shl01">Слюсенбург</placeName> шлюбки с людьми
                         в масках, его допросил, подлинно ли он видел, и старался бы всячески
-                        разведывать, не откроется ль чрез это каких сообщников <rs
-                            ref="events.xml#ivanv01">известному бунту.</rs>
+                        разведывать, не откроется ль чрез это каких сообщников <rs ref="events.xml#ivanv01">известному бунту.</rs>
                     </p>
                     <closer>
                         <signed>
@@ -142,22 +136,14 @@
                 <body>
                     <opener><salute rend="inline"><persName ref="people.xml#pan01">Nikita
                                 Ivanovich!</persName></salute></opener>
-                    <p>Today I received a courier from the <placeName
-                            ref="places.xml#vyb01">Vyborg</placeName> Governor with reports, which I am sending
-                        to you herewith. You may, based on them, order Lieutenant General <persName
-                            ref="people.xml#wey01">Weimarn</persName> to locate
+                    <p>Today I received a courier from the <placeName ref="places.xml#vyb01">Vyborg</placeName> Governor with reports, which I am sending
+                        to you herewith. You may, based on them, order Lieutenant General <persName ref="people.xml#wey01">Weimarn</persName> to locate
                         the non-commissioned officer who, being at the sluices, reported to his
-                        commander, Assessor <persName
-                            ref="people.xml#bek01">Bek</persName>, that he saw boats arriving from <placeName ref="places.xml#pet01"
-                            >Petersburg</placeName> in <placeName ref="places.xml#shl01"
-                            >Sluiceburg</placeName> with masked
+                        commander, Assessor <persName ref="people.xml#bek01">Bek</persName>, that he saw boats arriving from <placeName ref="places.xml#pet01">Petersburg</placeName> to <placeName ref="places.xml#shl01">Sluiceburg</placeName> with masked
                         individuals, question him whether he truly saw this, and make every effort
                         to find out whether this reveals any accomplices in the <rs ref="events.xml#ivanv01">known
                         rebellion</rs>.</p>
-                    <closer><signed><persName ref="people.xml#cat01"
-                                >Catherine.</persName></signed><lb/><dateline><placeName
-                                ref="places.xml#rig01">Riga.</placeName><lb/><date
-                                when-custom="1764-07-14">14 July,<lb/></date>
+                    <closer><signed><persName ref="people.xml#cat01">Catherine.</persName></signed><lb/><dateline><placeName ref="places.xml#rig01">Riga.</placeName><lb/><date when-custom="1764-07-14">14 July,<lb/></date>
                         1764.</dateline></closer>
                 </body>
             </text>
