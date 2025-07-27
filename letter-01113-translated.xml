@@ -1,5 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,34 +33,30 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
             <handNotes>
                 <handNote>Unknown</handNote>
             </handNotes>
             <correspDesc ref="https://catcor.seh.ox.ac.uk/id/letter-01113">
                 <correspAction type="sent">
-                    <persName ref="https://viaf.org/viaf/49493819" corresp="people.xml#cat01"
-                        type="main">
+                    <persName ref="https://viaf.org/viaf/49493819" corresp="people.xml#cat01" type="main">
                         <forename>Catherine</forename>
                         <genName>II</genName>
                         <addName type="epithet">the Great</addName>
                         <roleName>Empress of Russia</roleName>
                     </persName>
-                    <placeName ref="https://www.geonames.org/7874172" corresp="places.xml#tsa01"
-                        >Tsarskoe Selo</placeName>
+                    <placeName ref="https://www.geonames.org/7874172" corresp="places.xml#tsa01">Tsarskoe Selo</placeName>
                     <location>
                         <geo>59.723333 30.415833</geo>
                         <bibl>
-                            <ref target="https://www.geonames.org/7874172/"
-                                >https://www.geonames.org/7874172/</ref>
+                            <ref target="https://www.geonames.org/7874172/">https://www.geonames.org/7874172/</ref>
                         </bibl>
                     </location>
                     <date calendar="#julian" datingMethod="#julian" when-custom="1764-01-25">25
                         January 1764</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="https://viaf.org/viaf/51538274" corresp="people.xml#pan01"
-                        type="main">
+                    <persName ref="https://viaf.org/viaf/51538274" corresp="people.xml#pan01" type="main">
                         <roleName>Count</roleName>
                         <forename>Nikita</forename>
                         <forename type="patronym">Ivanovich</forename>
@@ -128,14 +126,11 @@
             </text>
             <text type="translation" xml:lang="en">
                 <body><opener><salute rend="inline"><persName ref="people.xml#pan01">Nikita
-                                Ivanovich!</persName></salute></opener><p>Your letter and the
-                        accompanying packet have been received by me. I am very glad to hear that
+                                Ivanovich!</persName></salute></opener><p>I have received your letter and the
+                        accompanying packet. I am very glad to hear that
                         the <persName ref="people.xml#pot01">Grand Duke</persName> is in good
                     health, and I send you the same news about myself, remaining always your
-                                well-wisher.</p><closer><signed><persName ref="people.xml#cat01"
-                                >Catherine.</persName></signed><dateline><placeName
-                                ref="places.xml#tsa01">S. Tsarskoe.</placeName><lb/><date
-                                when-custom="1764-01-25">25 January,
+                                well-wisher.</p><closer><signed><persName ref="people.xml#cat01">Catherine.</persName></signed><dateline><placeName ref="places.xml#tsa01">S. Tsarskoe.</placeName><lb/><date when-custom="1764-01-25">25 January,
                     1764</date></dateline></closer></body>
             </text>
         </group>
