@@ -115,16 +115,11 @@
     </text><text type="translation" xml:lang="en" xml:id="letter-01122-en">
         <body>
             <opener>
-            <salute rend="inline">Nikita Ivanovich!<persName ref="people.xml#pan01">Никита
-                        Иванович!</persName>
+            <salute rend="inline">Nikita Ivanovich!<persName ref="people.xml#pan01"/>
             </salute>
          </opener>
 
-            <p>I received your two letters of the 14th and 15th of July yesterday and today. It seems that Weimarn has wisely undertaken his duties, as evidenced by the order he issued to the garrison at the Shlisselburg fortress. I am, as for the most part always, very pleased with your arrangements. I am now two versts outside of Derpt; and as my retinue has not yet fully arrived due to the extensive sands, I shall remain here until tomorrow, after which I shall proceed to Peterhof.<persName ref="people.xml#wey01">Веймарн</persName> с умом взялся за дела, чему
-                свидетельствует приказ, в крепость <placeName ref="places.xml#shl01">Шлюссельбургскую</placeName> им отданной. Вашими распоряжениями я ныне, как по
-                большой части и всегда, весьма довольна. Я теперь две версты под <placeName ref="places.xml#tar01">Дерптом</placeName> нахожусь; а как свита моя от больших
-                песков еще не вся съехалась, то до завтра здесь останусь, а там поеду до <placeName ref="places.xml#pet02">Петергофа.</placeName>
-         </p>
+            <p>I received your two letters of the 14th and 15th of July yesterday and today. It seems that Weimarn has wisely undertaken his duties, as evidenced by the order he issued to the garrison at the Shlisselburg fortress. I am, as for the most part always, very pleased with your arrangements. I am now two versts outside of Derpt; and as my retinue has not yet fully arrived due to the extensive sands, I shall remain here until tomorrow, after which I shall proceed to Peterhof.</p>
             <closer>
             <dateline>
                <date when-custom="1764-07-18">18 July 1764</date>
