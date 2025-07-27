@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,15 +31,13 @@
             </bibl>
          </sourceDesc>
         </fileDesc>
-        <profileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
             <handNotes>
             <handNote>Unknown</handNote>
          </handNotes>
          <correspDesc ref="https://catcor.seh.ox.ac.uk/id/letter-01121">
             <correspAction type="sent">
-               <persName ref="https://viaf.org/viaf/49493819"
-                         corresp="people.xml#cat01"
-                         type="main">
+               <persName ref="https://viaf.org/viaf/49493819" corresp="people.xml#cat01" type="main">
                   <forename>Catherine</forename>
                   <genName>II</genName>
                   <addName type="epithet">the Great</addName>
@@ -53,9 +53,7 @@
                <date calendar="#julian" datingMethod="#julian" when-custom="1764-07-15">15 July 1764</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="https://viaf.org/viaf/51538274"
-                         corresp="people.xml#pan01"
-                         type="main">
+               <persName ref="https://viaf.org/viaf/51538274" corresp="people.xml#pan01" type="main">
                   <roleName>Count</roleName>
                   <forename>Nikita</forename>
                   <forename type="patronym">Ivanovich</forename>
@@ -113,7 +111,7 @@
             <p>Приложенныя два <seg xml:lang="fr">mémoires,</seg> подал Бискуп <placeName ref="places.xml#vil01">Виленской</placeName> брату Вашему, на которые он письмом
                 ответствовать будет, что я приказла отослать к Министрам, не обещая и не отказывая;
                 а помнится; что Огинский о том же просил; а другое, кажется, лутче в то не
-                ввязываться, дабы большинство голосов не в моду у них вошло,и для того отослать к
+                ввязываться, дабы большинство голосов не в моду у них вошло, и для того отослать к
                     <persName ref="people.xml#key03">Графу Кайзерлингу,</persName> дабы он умненько
                 сие от меня отклонил. Я в шестом часу сегодня отселе поеду к Вам в <placeName ref="places.xml#pet01">Петербург</placeName> чрез <placeName ref="places.xml#gos01">Гостилицы</placeName> и <placeName ref="places.xml#pet02">Петергоф,</placeName> а Вы с <persName ref="people.xml#pau01">Великим
                     Князем</persName> в город к моему приезду приезжайте; я, отдохнув дни с два в
