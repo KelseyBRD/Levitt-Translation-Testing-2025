@@ -145,8 +145,7 @@
                 some tact, reject it on my behalf. At six o’clock today I shall travel from here to you in <placeName ref="places.xml#pet01">Petersburg</placeName> via 
                 <placeName ref="places.xml#gos01">Gostilitsy</placeName> and 
                 <placeName ref="places.xml#pet02">Peterhof</placeName>; and you, together with the 
-                <persName ref="people.xml#pau01">Grand Prince</persName>, should come to the city 
-                to meet my arrival. I intend to rest for a couple of days in 
+                <persName ref="people.xml#pau01">Grand Prince</persName>, should come to the city for my arrival. I intend to rest for a couple of days in 
                 <placeName ref="places.xml#pet02">Peterhof</placeName> and then proceed to the city.</p>
             <closer>
                 <signed>
