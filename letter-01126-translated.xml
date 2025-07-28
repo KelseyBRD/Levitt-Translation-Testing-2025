@@ -1,5 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,12 +30,12 @@
                <biblScope>p. 9.</biblScope>
             </bibl>
             <bibl type="sourceEdition">
-               <bibl type="citation">Polovtsov, Alexander, ed., <title>Sbornik imperatorskago russkago istoricheskago obshchestva</title>, 148 vols (Sankt Peterburg: Tipografiia imperatorskoi akademii nauk, 1867-1916), X (1872) <ref target="https://babel.hathitrust.org/cgi/pt?id=coo.31924089408128&amp;view=1up&amp;seq=7&amp;skin=2021">&lt;https://babel.hathitrust.org/cgi/pt?id=coo.31924089408128&amp;view=1up&amp;seq=7&amp;skin=2021&gt;</ref> [accessed 29 September 2021]</bibl>
+               <bibl type="citation">Polovtsov, Alexander, ed., <title>Sbornik imperatorskago russkago istoricheskago obshchestva</title>, 148 vols (Sankt Peterburg: Tipografiia imperatorskoi akademii nauk, 1867-1916), X (1872) <ref target="https://babel.hathitrust.org/cgi/pt?id=coo.31924089408128&amp;view=1up&amp;seq=7&amp;skin=2021">&amp;lt;https://babel.hathitrust.org/cgi/pt?id=coo.31924089408128&amp;view=1up&amp;seq=7&amp;skin=2021&amp;gt;</ref> [accessed 29 September 2021]</bibl>
                <biblScope>p. 5.</biblScope>
             </bibl>
          </sourceDesc>
         </fileDesc>
-        <profileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
             <handNotes>
             <handNote>Unknown</handNote>
          </handNotes>
@@ -127,7 +129,7 @@
         <persName ref="people.xml#pan01">Nikita Ivanovich,</persName>
       </salute>
     </opener>
-    <p>I am sorry to hear about the illness of <persName ref="people.xml#pau01">the Grand Duke</persName>, and I hope he recovers quickly. I have kept <persName ref="people.xml#sim01">Simolin’s</persName> letter until tomorrow because it is long, and I cannot be bothered to read it now, as it is time for the comedy. I shall instruct the Master of Ceremonies to wear mourning for eight days when he is here.</p>
+    <p>I am sorry to hear about the illness of <persName ref="people.xml#pau01">the Grand Prince</persName>, and I hope he recovers quickly. I have kept <persName ref="people.xml#sim01">Simolin’s</persName> letter for tomorrow because it is long, and I cannot be bothered to read it now, as it is time for the comedy. I shall instruct the Master of Ceremonies to wear mourning for eight days when he is here.</p>
     <closer rend="inline">
       Otherwise, I wish you good health.
       <signed><persName ref="people.xml#cat01">Catherine.</persName></signed>
