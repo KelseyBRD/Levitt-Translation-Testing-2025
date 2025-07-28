@@ -1,5 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +31,7 @@
             </bibl>
          </sourceDesc>
         </fileDesc>
-        <profileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><profileDesc>
             <handNotes>
             <handNote>Unknown</handNote>
          </handNotes>
@@ -138,7 +140,7 @@
       Ivan Ivanovich told me that you were in some 
       <seg xml:lang="fr">anxiety,</seg>
       wondering whether I liked the measures you took concerning the 
-      <placeName ref="places.xml#shl01">Shlisselburg</placeName> incident. Although I hope you have already gathered from my letters that I am pleased with all the measures you took in this matter, having heard the above, I did not want to leave you without repeating that I am not only very satisfied, but must admit that it could not have been done better than you have done it, for which I am very grateful.
+      <placeName ref="places.xml#shl01">Shlisselburg</placeName> incident. Although I hope you have already gathered from my letters that I am pleased with all the measures you took in this matter, having heard the above, I did not want to leave you without repeating that I am not only very satisfied, but must admit that it could not have been done any better than you have done, for which I am very grateful.
       Yesterday, between 
       <placeName ref="places.xml#nar01">Narva</placeName> and here, I received the questions and answers of the notorious villain through Lieutenant Colonel 
       <persName ref="people.xml#kas01">Kashkin;</persName>
