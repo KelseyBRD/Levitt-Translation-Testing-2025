@@ -129,7 +129,7 @@
         <persName ref="people.xml#pan01">Nikita Ivanovich,</persName>
       </salute>
     </opener>
-    <p>I am sorry to hear about the illness of <persName ref="people.xml#pau01">the Grand Prince</persName>, and I hope he recovers quickly. I have kept <persName ref="people.xml#sim01">Simolin’s</persName> letter for tomorrow because it is long, and I cannot be bothered to read it now, as it is time for the comedy. I shall instruct the Master of Ceremonies to wear mourning for eight days when he is here.</p>
+    <p>I am sorry to hear about the illness of <persName ref="people.xml#pau01">the Grand Prince</persName>, and I hope he recovers quickly. I have kept <persName ref="people.xml#sim01">Simolin’s</persName> letter for tomorrow because it is long, and I cannot be bothered to read it now, as it is time for the comedy. I shall instruct the Master of Ceremonies about wearing mourning for eight days when he is here.</p>
     <closer rend="inline">
       Otherwise, I wish you good health.
       <signed><persName ref="people.xml#cat01">Catherine.</persName></signed>
