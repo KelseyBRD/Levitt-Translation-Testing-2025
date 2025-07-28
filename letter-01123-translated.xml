@@ -150,8 +150,7 @@
       <persName ref="people.xml#wey01">Weimarn</persName> to finish the remaining interrogations as prudently and swiftly as possible, since I believe public rumour will only be silenced once the entire affair is concluded.
       On Sunday I shall be at court with you, by which time Marn may also arrive, and then we shall decide how to proceed. Truly, I and my entire suite are so tired from the journey that it is impossible to arrive in the city, where everything will fall upon me, without first having rested.
     </p>
-    <closer rend="inline">
-      Nevertheless, I wish you good health.<lb/>
+    <closer rend="inline">In any case, I wish you good health.<lb/>
       <signed>
         <persName ref="people.xml#cat01">Catherine.</persName>
       </signed>
